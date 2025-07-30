@@ -5,6 +5,8 @@ import PopularCollectionSection from "./_components/popular-collection-section/p
 import SubscribeSection from "./_components/subscribe-section/subscribe-section";
 import TopCollectionSection from "./_components/top-collection-section/top-collection-section";
 
+export const runtime = "edge"
+
 export default function Home() {
   return (
    <div 
